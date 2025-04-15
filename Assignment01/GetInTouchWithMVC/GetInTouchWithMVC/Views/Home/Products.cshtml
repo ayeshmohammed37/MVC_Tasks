@@ -1,0 +1,25 @@
+﻿<div class="products"> 
+	<h1>Products</h1>
+	@for(int i = 0; i < 10; i++) {
+		<li>product @(i+1)</li>
+	}
+</div>
+
+<style>
+	h1 {
+		color: red;
+		font-weight: bold;
+	}
+	.products {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	li {
+		font-size: 17px;
+		color: blue;
+		border: 5px green dashed;
+	}
+</style>
