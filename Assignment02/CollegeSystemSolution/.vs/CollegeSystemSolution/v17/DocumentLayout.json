@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\day02\\task\\assignment02\\collegesystemsolution\\collegesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|solutionrelative:collegesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\day02\\task\\assignment02\\collegesystemsolution\\collegesystem\\models\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|solutionrelative:collegesystem\\models\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\day02\\task\\assignment02\\collegesystemsolution\\collegesystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|solutionrelative:collegesystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\day02\\task\\assignment02\\collegesystemsolution\\collegesystem\\views\\student\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|solutionrelative:collegesystem\\views\\student\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\day02\\task\\assignment02\\collegesystemsolution\\collegesystem\\views\\student\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5FA2683-3BCB-4869-93D0-A68654849DDA}|CollegeSystem\\CollegeSystem.csproj|solutionrelative:collegesystem\\views\\student\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 221,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Views\\Student\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "CollegeSystem\\Views\\Student\\ShowDetails.cshtml",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Views\\Student\\ShowDetails.cshtml",
+              "RelativeToolTip": "CollegeSystem\\Views\\Student\\ShowDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T09:57:30.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Views\\Student\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "CollegeSystem\\Views\\Student\\ShowAll.cshtml",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Views\\Student\\ShowAll.cshtml",
+              "RelativeToolTip": "CollegeSystem\\Views\\Student\\ShowAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T09:38:08.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentBL.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Models\\StudentBL.cs",
+              "RelativeDocumentMoniker": "CollegeSystem\\Models\\StudentBL.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Models\\StudentBL.cs",
+              "RelativeToolTip": "CollegeSystem\\Models\\StudentBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:35:01.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CollegeSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CollegeSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T09:32:39.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Program.cs",
+              "RelativeDocumentMoniker": "CollegeSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\Day02\\Task\\Assignment02\\CollegeSystemSolution\\CollegeSystem\\Program.cs",
+              "RelativeToolTip": "CollegeSystem\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T22:34:41.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

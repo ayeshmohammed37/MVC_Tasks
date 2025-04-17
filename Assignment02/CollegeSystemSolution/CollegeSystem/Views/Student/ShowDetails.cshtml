@@ -1,0 +1,21 @@
+﻿@model Student
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Student Information</h2>
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Age</td>
+            <td>@Model.Department.Name</td>
+        </tr>
+    </table>
+</div>
