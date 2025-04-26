@@ -1,0 +1,29 @@
+﻿@model StudentEditViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<!-- /Student/SaveAdd?name=ahmed&age=18&DepartmentId=2 -->
+
+<a asp-controller="Student" asp-action="Index" class="btn btn-success mt-3 mb-3">
+    Back To List
+</a>
+
+<form method="post" asp-controller="Student" asp-action="SaveEdit">
+    <div class="mb-4">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form form-control" />
+    </div>
+    <div class="mb-4">
+        <label asp-for="Age"></label>
+        <input asp-for="Age" class="form form-control" />
+    </div>
+    <div class="mb-4">
+        <label asp-for="DepartmentId"></label>
+        <select asp-for="DepartmentId" class="form form-control" asp-items="Model.Departments"></select>
+    </div>
+    <button type="submit" asp-controller="Student" asp-action="SaveEdit" asp-route-id="@Model.Id" class="btn btn-primary mt-2 mb-2">
+        Save
+    </button>
+</form>

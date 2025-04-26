@@ -1,0 +1,26 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Add";
+}
+
+
+<!-- /Student/SaveAdd?name=ahmed&age=18&DepartmentId=2 -->
+
+<form action="/Student/SaveAdd" method="post"> 
+    <div>
+        <label>Name: </label>
+        <input name="Name" value ="@(Model?.Name??"")" class="form form-control" />
+    </div>
+    <div>
+        <label>Age: </label>
+        <input name="Age" value ="@(Model?.Age?? null)" class="form form-control" />
+    </div>
+    <div>
+        <label>DepartmentId: </label>
+        <input name="DepartmentId" value="@(Model?.DepartmentId?? null)" class="form form-control" />
+    </div>
+    <input type="submit" value="Add" class="btn btn-primary mt-2 mb-2"/>
+</form>
+
+<a href="/Student/ShowAll" class="btn btn-success mt-3 mb-3">Back To List</a>
+

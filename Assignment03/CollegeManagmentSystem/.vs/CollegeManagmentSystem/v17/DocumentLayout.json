@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\views\\department\\status.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\views\\department\\status.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\models\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\models\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\viewmodels\\departmentstatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\viewmodels\\departmentstatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment03\\collegemanagmentsystem\\collegemanagmentsystem\\views\\department\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\views\\department\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentStatusViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\ViewModels\\DepartmentStatusViewModel.cs",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\ViewModels\\DepartmentStatusViewModel.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\ViewModels\\DepartmentStatusViewModel.cs",
+              "RelativeToolTip": "CollegeManagmentSystem\\ViewModels\\DepartmentStatusViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:42:45.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Models\\Department.cs",
+              "RelativeToolTip": "CollegeManagmentSystem\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:43:24.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentBL.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Models\\DepartmentBL.cs",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Models\\DepartmentBL.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Models\\DepartmentBL.cs",
+              "RelativeToolTip": "CollegeManagmentSystem\\Models\\DepartmentBL.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwD0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:41:42.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Status.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\Status.cshtml",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Views\\Department\\Status.cshtml",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\Status.cshtml",
+              "RelativeToolTip": "CollegeManagmentSystem\\Views\\Department\\Status.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T18:23:11.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "CollegeManagmentSystem\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T15:47:39.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Models\\Student.cs",
+              "RelativeToolTip": "CollegeManagmentSystem\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:54:59.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\Add.cshtml",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Views\\Department\\Add.cshtml",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\Add.cshtml",
+              "RelativeToolTip": "CollegeManagmentSystem\\Views\\Department\\Add.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T16:02:05.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "CollegeManagmentSystem\\Views\\Department\\ShowDetails.cshtml",
+              "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment03\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Department\\ShowDetails.cshtml",
+              "RelativeToolTip": "CollegeManagmentSystem\\Views\\Department\\ShowDetails.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T16:17:54.449Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

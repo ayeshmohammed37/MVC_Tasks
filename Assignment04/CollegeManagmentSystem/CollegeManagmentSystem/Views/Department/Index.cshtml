@@ -1,0 +1,40 @@
+﻿@model List<Department>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+        <h2 class="mb-4 text-center">Departments</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var department in Model)
+            {
+                <div class="col">
+                    <div class="card shadow-sm h-100 position-relative">
+
+                        <!-- Remove Button -->
+                        <form method="post" action="/Department/Remove?id=@department.Id" class="position-absolute top-0 end-0 m-2">
+                            <button type="submit" class="btn btn-sm btn-danger" title="Remove Department">&times;</button>
+                        </form>
+
+                        <div class="card-body">
+                            <h5 class="card-title">@department.Name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Manager: @department.MgrName</h6>
+                            <p class="card-text">
+                                Teachers: @department.Teachers.Count<br>
+                                Courses: @department.Courses.Count<br>
+                                Students: @department.Students.Count
+                            </p>
+                            <a href="/Department/ShowDetails?id=@department.Id" class="btn btn-primary">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="/Department/Add" class="btn btn-primary">Add New Department</a>
+            <a href="/Department/Status" class="btn btn-primary">Status</a>
+        </div>
+    </div>
+
+</body>

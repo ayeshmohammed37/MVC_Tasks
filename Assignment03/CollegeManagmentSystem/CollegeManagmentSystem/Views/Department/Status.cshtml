@@ -1,0 +1,45 @@
+﻿@model List<DepartmentStatusViewModel>
+@{
+    ViewData["Title"] = "Status";
+}
+
+
+<body class="bg-light">
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Department Status Overview</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            @foreach (var dept in Model)
+            {
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">@dept.DepartmentName</h5>
+
+                            <div class="mb-3">
+                                <label class="form-label">Students</label>
+                                <select class="form-select">
+                                    @foreach (var student in dept.StudentNames)
+                                    {
+                                        <option>@student</option>
+                                    }
+                                </select>
+                            </div>
+
+                            <div>
+                                <span class="fw-bold">Department State: </span>@dept.DepartmentState
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <a href="/Department" class="btn btn-success mt-3 mb-3">Back To List</a>
+
+    </div>
+
+</body>
+</html>
+

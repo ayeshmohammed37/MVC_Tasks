@@ -1,0 +1,21 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Add";
+}
+
+
+<form action="/Department/SaveAdd?name=physics&mgrname=dr.harry" method="post">
+    <div>
+        <label>Name: </label>
+        <input name="Name" value="@(Model?.Name??"")" class="form form-control" />
+    </div>
+    <div>
+        <label>Mgr Name: </label>
+        <input name="MgrName" value="@(Model?.MgrName?? "")" class="form form-control" />
+    </div>
+
+    <input type="submit" value="Add" class="btn btn-primary mt-2 mb-2" />
+</form>
+
+<a href="/Department" class="btn btn-success mt-3 mb-3">Back To List</a>
+
