@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment04\\CollegeManagmentSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment04\\collegemanagmentsystem\\collegemanagmentsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment04\\collegemanagmentsystem\\collegemanagmentsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment04\\collegemanagmentsystem\\collegemanagmentsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|solutionrelative:collegemanagmentsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B98BB92-4A5F-40ED-85B0-2F6359EC8F2F}|CollegeManagmentSystem\\CollegeManagmentSystem.csproj|c:\\users\\ayesh\\desktop\\depi\\mvc\\mvc_tasks\\assignment04\\collegemanagmentsystem\\collegemanagmentsystem\\models\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -76,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment04\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "CollegeManagmentSystem\\Views\\Student\\Index.cshtml",
               "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment04\\CollegeManagmentSystem\\CollegeManagmentSystem\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "CollegeManagmentSystem\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-24T09:56:17.739Z",
               "EditorCaption": ""
@@ -160,13 +160,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment04\\CollegeManagmentSystem\\CollegeManagmentSystem\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "CollegeManagmentSystem\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\ayesh\\Desktop\\DEPI\\MVC\\MVC_Tasks\\Assignment04\\CollegeManagmentSystem\\CollegeManagmentSystem\\Controllers\\StudentController.cs",
               "RelativeToolTip": "CollegeManagmentSystem\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFQAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T15:56:52.588Z",
               "EditorCaption": ""
