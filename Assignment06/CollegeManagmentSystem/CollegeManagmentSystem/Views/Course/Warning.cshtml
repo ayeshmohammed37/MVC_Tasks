@@ -1,0 +1,41 @@
+﻿@model Course
+
+
+
+<a asp-controller="Course" asp-action="Index" class="btn btn-success">Back To List</a>
+
+<div class="container mt-5">
+    <h4 class="mb-4 text-center">Are you sure you want to delete this Course?</h4>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Degree</th>
+                <th>Min Degree</th>
+                <th>Department</th>
+                <th>Teacher</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Name</td>
+                <td>@Model.Degree</td>
+                <td>@(Model.Department?.Name ?? "N/A")</td>
+                <td>
+                    @if (Model.Teachers != null && Model.Teachers.Count > 0)
+                    {
+                        <ul class="mb-0">
+                            @foreach (var teacher in Model.Teachers)
+                            {
+                                <li>@teacher.Name</li>
+                            }
+                        </ul>
+                    }
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <td><a asp-controller="Course" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger m-4">Yes</a></td>
+    <td><a asp-controller="Course" asp-action="Index" class="btn btn-success m-4">No</a></td>
+</div>

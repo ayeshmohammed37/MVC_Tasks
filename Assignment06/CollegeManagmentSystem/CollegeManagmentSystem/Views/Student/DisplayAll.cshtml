@@ -1,0 +1,47 @@
+﻿<a asp-controller="Student" asp-action="Index" class="btn btn-success mt-3 mb-3">
+    Back To List
+</a>
+
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Student List</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+                <th>Courses</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Name</td>
+                    <td>@student.Age</td>
+                    <td>@(student.Department?.Name ?? "N/A")</td>
+                    <td>
+                        @if (student.StuCrsRess != null && student.StuCrsRess.Count > 0)
+                        {
+                            <ul class="mb-0">
+                                @foreach (var crs in student.StuCrsRess)
+                                {
+                                    <li>@crs.Course.Name</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No Courses</span>
+                        }
+                    </td>
+                    <td><a asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id">Edit</a></td>
+                    <td><a asp-controller="Student" asp-action="Warning" asp-route-id="@student.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

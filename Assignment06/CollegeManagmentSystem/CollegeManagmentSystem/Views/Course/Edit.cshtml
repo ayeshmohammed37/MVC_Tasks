@@ -1,0 +1,41 @@
+﻿@model Course
+@{
+
+    SelectList deptOpteions = new SelectList(ViewBag.Departments, "Id", "Name");
+}
+
+
+
+<form method="post" asp-controller="Course" asp-action="SaveEdit">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="mb-4">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form form-control" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-4">
+        <label asp-for="Degree"></label>
+        <input asp-for="Degree" class="form form-control" />
+        <span asp-validation-for="Degree"></span>
+    </div>
+    <div class="mb-4">
+        <label asp-for="MinDegree"></label>
+        <input asp-for="MinDegree" class="form form-control" />
+        <span asp-validation-for="MinDegree"></span>
+    </div>
+    <div class="mb-4">
+        <label asp-for="DepartmentId"></label>
+        <select asp-for="DepartmentId" class="form form-control" asp-items="deptOpteions">
+            <option value="0">-- Select Department --</option>
+        </select>
+        <span asp-validation-for="DepartmentId"></span>
+    </div>
+    <input asp-for="Id" class="visually-hidden" />
+    <input  type="submit" value="Save Edit" class="btn btn-primary mt-2 mb-2" />
+</form>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}

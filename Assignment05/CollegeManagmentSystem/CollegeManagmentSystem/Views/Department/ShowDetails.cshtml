@@ -1,0 +1,55 @@
+﻿@model DepartmentDetailsViewModel
+@{
+    ViewData["Title"] = "ShowDetails";
+}
+
+<body class="bg-light">
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Department Details</h2>
+
+        <div class="card shadow-lg mx-auto" style="max-width: 800px;">
+            <div class="card-body">
+                <h4 class="card-title">@Model.DeptName</h4>
+                <h6 class="card-subtitle mb-3 text-muted">@Model.MgrName</h6>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6>Teachers</h6>
+                        <ul class="list-group mb-3">
+                            @foreach (var teacher in Model.TeachersName)
+                            {
+                                <li class="list-group-item">@teacher</li>
+                            }
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h6>Courses</h6>
+                        <ul class="list-group mb-3">
+                            @foreach (var course in Model.CoursesName)
+                            {
+                                <li class="list-group-item">@course</li>
+                            }
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h6>Students</h6>
+                        <ul class="list-group mb-3">
+                            @foreach (var student in Model.StudentsName)
+                            {
+                                <li class="list-group-item">@student</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="/department" class="btn btn-secondary">Back to Departments</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

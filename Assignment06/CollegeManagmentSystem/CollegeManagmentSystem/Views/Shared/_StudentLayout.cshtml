@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentPortal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/StudentLayout.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                Logo
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <a asp-controller="Student" asp-action="Index" class="btn btn-link mb-4">Home</a>
+                    @* <li><a href="#">Home</a></li> *@
+                    <a asp-controller="Student" asp-action="Add" class="btn btn-success mb-4">Add</a>
+                    @* <li><a href="#"><span class="icon">+</span> Add</a></li> *@
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-info mb-4"><span class="icon">&lt;</span> Back to Home Page</a>
+                    @* <li><a href="#"><span class="icon">&lt;</span> Back</a></li> *@
+                </ul>
+            </nav>
+        </aside>
+        <main class="page-content">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

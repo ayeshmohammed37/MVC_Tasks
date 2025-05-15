@@ -1,0 +1,37 @@
+﻿@model EditStudentViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_StudentLayout";
+
+    SelectList deptOpteions = new SelectList(Model.Departments, "Id", "Name");
+}
+
+
+<!-- /Student/SaveAdd?name=ahmed&age=18&DepartmentId=2 -->
+
+<a asp-controller="Student" asp-action="Index" class="btn btn-success mt-3 mb-3">
+    Back To List
+</a>
+
+<form method="post" asp-controller="Student" asp-action="SaveEdit">
+    <div class="mb-4">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-4">
+        <label asp-for="Age"></label>
+        <input asp-for="Age" class="form form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+
+    </div>
+    <div class="mb-4">
+        <label asp-for="DeptId"></label>
+        <select asp-for="DeptId" class="form form-control" asp-items="deptOpteions"></select>
+        <span asp-validation-for="DeptId" class="text-danger"></span>
+    </div>
+    
+    <button type="submit" asp-controller="Student" asp-action="SaveEdit" class="btn btn-primary mt-2 mb-2" asp-route-id="@Model.Id">
+        Save
+    </button>
+</form>

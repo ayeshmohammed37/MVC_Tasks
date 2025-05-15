@@ -1,0 +1,44 @@
+﻿@model List<Course>
+
+<a asp-controller="Course" asp-action="Add" class="btn btn-success mb-4">Add New Course</a>
+
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Student List</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Degree</th>
+                <th>Min Degree</th>
+                <th>Department</th>
+                <th>Teacher</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <td>@course.Name</td>
+                    <td>@course.Degree</td>
+                    <td>@course.MinDegree</td>
+                    <td>@course.Department.Name</td>
+                    <td>
+                        <ul class="mb-0">
+                            @foreach (var teacher in course.Teachers)
+                            {
+                                <li>@teacher.Name</li>
+                            }
+                        </ul>
+                        
+                    </td>
+                    
+                    <td><a asp-controller="Course" asp-action="Edit" asp-route-id="@course.Id">Edit</a></td> 
+                     <td><a asp-controller="Course" asp-action="Warning" asp-route-id="@course.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
